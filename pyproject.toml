@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "gutgin"
+version = "0.0.1"
+description = "A small toolkit for any tasks"
+authors = ["Kirill Lekhov <Kirill.Lekhov@mail.ru>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
